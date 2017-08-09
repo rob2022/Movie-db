@@ -1,0 +1,26 @@
+[
+  {
+    "id": "actor-1",
+    "firstName": "Linda",
+    "lastName": "Hamilton",
+    "dateOfBirth": "1956-09-26"
+  },
+  {
+    "id": "actor-2",
+    "firstName": "Arnold",
+    "lastName": "Schwarzenegger",
+    "dateOfBirth": "1947-06-30"
+  },
+  {
+    "id": "actor-3",
+    "firstName": "Bruce",
+    "lastName": "Willis",
+    "dateOfBirth": "1955-03-19"
+  },
+  {
+    "id": "actor-4",
+    "firstName": "Alan",
+    "lastName": "Rickman",
+    "dateOfBirth": "1946-02-21"
+  }
+]
