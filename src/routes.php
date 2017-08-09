@@ -1,8 +1,11 @@
 <?php
+use App\Controllers\MovieController;
+
+
 // Routes
-
-$app->get('/[{name}]', function ($request, $response, $args) {
-    $response = 'hello';
-
-    return $response;
+$app->group('/api', function () {
+    $this->group('/v1', function () {
+        $this->get('/movie', MovieController::class . ':index');
+        $this->get('/movie/{id}', MovieController::class . ':show');
+    });
 });
